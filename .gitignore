@@ -2,3 +2,5 @@
 /logs
 .idea
 /templates
+composer.lock
+CONTRIBUTING.md
