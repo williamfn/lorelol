@@ -1,7 +1,4 @@
 /vendor
-/logs
 .idea
-/templates/*
 composer.lock
 CONTRIBUTING.md
-public/json/*
