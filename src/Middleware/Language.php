@@ -1,4 +1,4 @@
-<?php namespace app\Middleware;
+<?php namespace App\Middleware;
 
 class Language
 {

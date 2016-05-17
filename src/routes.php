@@ -9,7 +9,6 @@ $app->get('/', function ($request, $response) {
 $app->get('/champion/{champion}', function ($request, $response, $args) {
     $filePath = getFilePath($this->get('settings'));
     return $this->renderer->render($response, $filePath.'/'.$args['champion'].'.html', $args);
-
 });
 
 // Set language when change the dropdown

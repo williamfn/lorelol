@@ -15,7 +15,7 @@ return [
         ],
 
         // Page settings
-        'actual_patch' => '6.5.1',
+        'actual_patch' => '6.9.1',
         'default_region' => 'na',
     ],
 ];

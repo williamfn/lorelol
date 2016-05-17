@@ -17,3 +17,13 @@ $container['logger'] = function ($c) {
     $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['path'], Monolog\Logger::DEBUG));
     return $logger;
 };
+
+// 404 error handler
+$container['notFoundHandler'] = function ($c) {
+    return new App\Exception\NotFoundHandler(
+        $c,
+        function ($request, $response) use ($c) {
+            return $c['response']->withStatus(404);
+        }
+    );
+};

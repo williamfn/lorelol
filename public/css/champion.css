@@ -14,7 +14,7 @@ a:link { text-decoration: none; }
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0;
+  margin: 15px 0 20px;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -58,6 +58,7 @@ a:link { text-decoration: none; }
   justify-content: space-around;
 }
 .crest {
+  border-radius: 8px;
   height: 140px;
   width: 140px;
 }
@@ -120,7 +121,6 @@ a:link { text-decoration: none; }
   .header {
     justify-content: space-between;
     margin-bottom: 30px;
-    margin-top: 30px;
   }
   .champion {
     flex-direction: row;
